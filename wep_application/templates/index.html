@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<center>
+	<div id="dropbox">Drop ".hcp" file here.</div>
+	<div class="spinner-border text-success"  id="spinner" role="status"></div>
+	<div id="gallery"><img src="" id="ordrImg"></div>
+</center>
+<center>
+	<button type="button" class="btn btn-success" id="solveBtn" disabled>Solve</button>
+	<button type="button" class="btn btn-primary" id="homeBtn">New Graph</button>
+	<button type="button" class="btn btn-danger" id="prevBtn" disabled>   <<   </button>
+	<button type="button" class="btn btn-success" id="nextBtn">   >>   </button>
+	<a href="{{ url_for('static',filename='graph/solution.tou') }}" class="btn btn-primary" role="button" id="dwnlBtn">Solution</a>
+	<p id="statusText"></p>
+</center>
+
+{% endblock %}
