@@ -1,16 +1,19 @@
 Python dependencies:
-¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+---
+
 - Sortedcontainers
 - Bitarray
 - Progressbar2
-- PIL
+- Pillow (PIL)
 
 Execute script:
-¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+---
+
+```bash
 $ python3 slh.py <seed> <filepath>
+```
 
 Output file:
-¯¯¯¯¯¯¯¯¯¯¯¯
-<filepath>.sol
+---
 
-
+`<filepath>.sol`
